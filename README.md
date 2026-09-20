@@ -1,4 +1,3 @@
-# DocScan – Smart Document Scanner & Text Extractor
 
 A Flutter app that turns your phone camera into a document scanner: capture a page → extract its text on-device with OCR → save it locally → export a clean PDF. Works fully offline.
 
@@ -104,3 +103,4 @@ Share sheet showing the generated PDF ready to export/share.
 - Local persistence uses SQLite (`sqflite`), giving you a real relational schema to describe (table: `documents`, columns, primary key, CRUD ops).
 - PDF generation is done natively in Dart using the `pdf` package — you can explain how a PDF widget tree (`pw.Document`, `pw.MultiPage`) is composed and rendered to bytes.
 - Architecture follows separation of concerns: `models/` (data), `services/` (business logic: DB, OCR, PDF), `screens/` (UI) — a simple but real layered architecture, not everything crammed into one file.
+ 42935dbbe6efff7b5ff7665cad92b7d9e54ed196
