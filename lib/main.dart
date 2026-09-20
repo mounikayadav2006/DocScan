@@ -15,7 +15,7 @@ class DocScanApp extends StatelessWidget {
       title: 'DocScan',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorSchemeSeed: Colors.indigo,
+        colorSchemeSeed: Colors.teal,
         useMaterial3: true,
         appBarTheme: const AppBarTheme(centerTitle: true),
       ),
