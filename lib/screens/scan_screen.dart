@@ -90,6 +90,7 @@ class _ScanScreenState extends State<ScanScreen> {
     final savedImage =
         await _imageFile!.copy('${appDir.path}/$fileName');
 
+// Persist the document (image path + extracted text) into local SQLite storage
     final doc = ScannedDocument(
       title: _titleController.text.trim(),
       imagePath: savedImage.path,
