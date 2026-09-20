@@ -1,0 +1,8 @@
+<!--
+  Add these keys inside ios/Runner/Info.plist
+  (the file that gets created automatically by `flutter create .`)
+-->
+<key>NSCameraUsageDescription</key>
+<string>DocScan needs camera access to scan documents.</string>
+<key>NSPhotoLibraryUsageDescription</key>
+<string>DocScan needs photo library access to select document images.</string>
